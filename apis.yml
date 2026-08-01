@@ -1,21 +1,58 @@
 aid: primarybid
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/primarybid.png
 name: PrimaryBid
-description: 'PrimaryBid is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'PrimaryBid was a UK-based fintech that gave retail investors access to public
+  capital markets — IPOs, follow-on equity raises, and public offerings that were historically
+  restricted to institutional investors. It partnered with exchanges, banks, and issuers to
+  broadcast live capital-raising events to individual investors, powering retail participation
+  in listings such as Deliveroo, PensionBee, and Soho House. PrimaryBid''s technology was
+  acquired by SoFi Technologies, Inc. in May 2026; the standalone consumer platform has been
+  wound down and its public website now redirects former shareholders to third-party share
+  registrars. This profile is retained in the API Evangelist network as a historical company
+  record. No public developer portal, API documentation, or machine-readable API surface was
+  found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/primarybid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - softbank-vision-fund
+x-status: acquired
+x-acquired-by: sofi
+x-acquired-date: '2026-05-08'
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Capital Markets
+- IPO
+- Retail Investing
+- Investing
+- United Kingdom
+common:
+- type: DomainSecurity
+  url: security/primarybid-domain-security.yml
+- type: Website
+  url: https://primarybid.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
 maintainers:
 - FN: Kin Lane
