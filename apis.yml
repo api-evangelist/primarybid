@@ -55,6 +55,11 @@ tags:
 - Investing
 - United Kingdom
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/sofi-technologies/
+  name: SoFi Technologies
+  x-relationship: acquired
+  x-evidence: "PrimaryBid's technology was acquired by SoFi Technologies, Inc."
 - type: DomainSecurity
   url: security/primarybid-domain-security.yml
 - type: Website
